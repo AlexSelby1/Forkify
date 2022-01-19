@@ -1,0 +1,28 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe API application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSelby1/Forkify.git"
+  },
+  "author": "Alex Selby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSelby1/Forkify/issues"
+  },
+  "homepage": "https://github.com/AlexSelby1/Forkify#readme",
+  "dependencies": {
+    "node-gyp": "^8.4.1",
+    "node-gyp-build": "^4.3.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1",
+    "sass": "^1.49.0"
+  }
+}
